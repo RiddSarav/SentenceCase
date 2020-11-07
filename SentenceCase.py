@@ -4,5 +4,9 @@ def SentenceCase(string):
 	new_list2 = new_list[0]
 	all_charectars = list(new_list2)	
 	all_charectars[0] = all_charectars[0].upper()
-	print("".join(all_charectars))
 
+	a="".join(all_charectars)
+	a = list(a)
+	a.append(new_list[1])
+	str1 = " "
+	print(str1.join(a))
