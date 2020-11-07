@@ -9,4 +9,4 @@ def SentenceCase(string):
 	a = list(a)
 	a.append(new_list[1])
 	str1 = " "
-	print(str1.join(a))
+	return str1.join(a)
